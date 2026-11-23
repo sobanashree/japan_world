@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04. Japanese Culture | Modern Japan</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style/content1.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <h1>Japan</h1>
+            <p>Discover the Beauty of Japan</p>
+        </div>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="content1.html" class="active">Culture</a>
+        <a href="content2.html">About & Explore</a>
+          <a href="content3.html">technology</a>
+        
+    </nav>
+
+    <!-- 2-COLUMN FLUID LAYOUT WITH LEFT SIDEBAR -->
+    <div class="layout-wrapper">
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="left-sidebar">
+            <h3>Culture Menu</h3>
+            <ul class="image-link-list">
+                <li>
+                    <a href="#clothing">
+                        <img src="Image/dress.jpeg" alt="Traditional Clothing">
+                        <span>Traditional Clothing</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#festivals">
+                        <img src="Image/fev2 (1).jpeg" alt="Japanese Festivals">
+                        <span>Festivals</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#customs">
+                        <img src="Image/conten1.jpeg" alt="Customs and Traditions">
+                        <span>Customs & Traditions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#language">
+                        <img src="Image/japalan.jpeg" alt="Japanese Language">
+                        <span>Japanese Language</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <img src="Image/japan.jpeg" alt="Home Page">
+                        <span>Home Page</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="content2.html">
+                        <img src="Image/food.jpeg" alt="About & Explore">
+                        <span>Food & Explore Japan</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="quote-box">
+                <h3>Did You Know?</h3>
+                <p>Japan is popularly known as the Land of the Rising Sun, blending ancient customs with modern life.</p>
+            </div>
+        </aside>
+
+        <!-- MAIN ARTICLE SECTION -->
+        <main class="main-article">
+
+            <article class="intro-article">
+                <h2>04. Japanese Culture</h2>
+
+                <figure class="article-figure">
+                    <img src="Image/confev.jpeg" alt="Japanese Cultural Heritage">
+                    <figcaption>Traditional Japanese heritage procession celebrating attire, rituals, and seasonal customs.</figcaption>
+                </figure>
+
+                <p>
+                    Japanese culture is a rich blend of ancient heritage and modern expression.
+                    Rooted in harmony with nature, respect for community, and attention to detail,
+                    it shapes traditional arts, seasonal celebrations, daily manners, and language.
+                </p>
+
+                <p>
+                    Explore the four core pillars of Japanese culture below through our
+                    carousel and interactive culture cards.
+                </p>
+            </article>
+
+            <!-- PURE CSS / BOOTSTRAP-STYLED CAROUSEL -->
+            <section class="carousel-section">
+                <h2>04. Japanese Culture Carousel</h2>
+                <p class="section-subtext">Four slides showcasing Japanese clothing, festivals, customs, and language.</p>
+
+                <!-- Removed conflicting Bootstrap JS-dependent classes or kept structure clean for CSS animation -->
+                <div class="bootstrap-culture-carousel overflow-hidden position-relative rounded">
+                    <div class="culture-auto-track d-flex">
+
+                        <!-- SLIDE 1 -->
+                        <div class="culture-slide position-relative flex-shrink-0 w-100">
+                            <img src="Image/dress.jpeg" class="d-block w-100" alt="Traditional Clothing">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Traditional Clothing</h5>
+                                <p>Kimono, yukata, obi, and seasonal patterns.</p>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 2 -->
+                        <div class="culture-slide position-relative flex-shrink-0 w-100">
+                            <img src="Image/confev.jpeg" class="d-block w-100" alt="Festivals">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Festivals</h5>
+                                <p>Matsuri parades, lanterns, music, and celebrations.</p>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 3 -->
+                        <div class="culture-slide position-relative flex-shrink-0 w-100">
+                            <img src="Image/conten1.jpeg" class="d-block w-100" alt="Customs and Traditions">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Customs and Traditions</h5>
+                                <p>Politeness, tea ceremony, bowing, and respect.</p>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 4 -->
+                        <div class="culture-slide position-relative flex-shrink-0 w-100">
+                            <img src="Image/japalan.png" class="d-block w-100" alt="Japanese Language">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Japanese Language</h5>
+                                <p>Hiragana, Katakana, Kanji, and polite speech.</p>
+                            </div>
+                        </div>
+
+                        <!-- CLONE OF SLIDE 1 (For smooth infinite CSS loop) -->
+                        <div class="culture-slide position-relative flex-shrink-0 w-100" aria-hidden="true">
+                            <img src="Image/dress.jpeg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Traditional Clothing</h5>
+                                <p>Kimono, yukata, obi, and seasonal patterns.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2-COLUMN CARDS WITH HOVER EFFECTS -->
+            <section class="culture-cards-section">
+                <h2>Culture Cards</h2>
+                <p class="section-subtext">Hover over each card to highlight details.</p>
+
+                <div class="cards-two-col">
+
+                    <!-- CARD 1 -->
+                    <div class="culture-card" id="clothing">
+                        <img src="Image/boy and girl.jpeg" alt="Traditional Clothing">
+                        <div class="card-body">
+                            <h3>Traditional Clothing</h3>
+                            <p>
+                                Traditional Japanese attire reflects seasonal beauty and craftsmanship.
+                                The <strong>Kimono</strong> is a classic robe tied with a wide sash
+                                called an <em>obi</em>, worn for weddings, tea ceremonies, and formal
+                                events. The <strong>Yukata</strong> is a lighter cotton robe worn during
+                                summer festivals and hot spring stays, often paired with <em>zori</em>
+                                sandals or wooden <em>geta</em>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="culture-card" id="festivals">
+                        <img src="Image/fev2 (1).jpeg" alt="Festivals">
+                        <div class="card-body">
+                            <h3>Festivals</h3>
+                            <p>
+                                Japanese festivals, known as <strong>Matsuri</strong>, celebrate seasons,
+                                local shrines, harvests, and community spirit. Highlights include
+                                <strong>Hanami</strong> (cherry blossom viewing), Kyoto's
+                                <strong>Gion Matsuri</strong> floats, <strong>Obon</strong> lantern and
+                                dance traditions, and summer fireworks (<em>hanabi taikai</em>) with
+                                lively food stalls and drum music.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="culture-card" id="customs">
+                        <img src="Image/contcosu.jpeg" alt="Customs and Traditions">
+                        <div class="card-body">
+                            <h3>Customs and Traditions</h3>
+                            <p>
+                                Everyday customs in Japan emphasize politeness, cleanliness, and respect
+                                for others. Removing outdoor shoes before entering homes or traditional
+                                rooms keeps spaces clean, while bowing (<em>ojigi</em>) expresses greeting
+                                or gratitude. Classical arts like <strong>Chanoyu</strong> (tea ceremony)
+                                and <strong>Ikebana</strong> (flower arrangement) reflect calm focus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- CARD 4 -->
+                    <div class="culture-card" id="language">
+                        <img src="Image/japalan.jpeg" alt="Japanese Language">
+                        <div class="card-body">
+                            <h3>Japanese Language</h3>
+                            <p>
+                                The Japanese language (<strong>Nihongo</strong>) uses three writing scripts
+                                together: <strong>Hiragana</strong> (curved phonetic characters for native
+                                words and grammar), <strong>Katakana</strong> (angular characters for
+                                loanwords and emphasis), and <strong>Kanji</strong> (meaning-based
+                                characters adapted from Chinese), along with polite speech levels
+                                (<em>keigo</em>) suited to social situations.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Modern Japan | Discover the Beauty of Japanese Culture</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
